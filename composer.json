@@ -1,0 +1,19 @@
+{
+    "name": "webino/xpeed",
+    "description": "High-Performance WordPress Theme Starter with Modern Workflow",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Webino\\Xpeed\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Webino",
+            "email": "dev@webino.co"
+        }
+    ],
+    "require": {
+        "timber/timber": "^2.2"
+    }
+}
