@@ -7,7 +7,7 @@ const entryPoints = {
 };
 
 for (let [page, options] of Object.entries(pages)) {
-  entryPoints[page] = `./pages/${page}/scripts/${page}.js`;
+  entryPoints[page] = `./templates/pages/${page}/scripts/${page}.js`;
 }
 
 module.exports = {
