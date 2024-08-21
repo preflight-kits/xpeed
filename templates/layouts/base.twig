@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html {{ fn("language_attributes") }}>
+  <head>
+    <meta charset="{{ site.charset }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+
+    <!-- WordPress wp_head -->
+    {{ fn("wp_head") }}
+
+  </head>
+  <body {{ fn("body_class") }}>
+
+    <!-- WordPress wp_body_open -->
+    {{ fn("wp_body_open") }}
+
+    <!-- Main Content -->
+    <main>
+      {% block content %}{% endblock %}
+    </main>
+
+    <!-- WordPress wp_footer -->
+    {{ fn("wp_footer") }}
+
+  </body>
+</html>
